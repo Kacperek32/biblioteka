@@ -56,3 +56,20 @@ get_series = ["Rodzinka", "Spongebob", "Dexter"]
 #Funkcja serial oraz film
 print(sorted(get_series))
 print(sorted(get_movies))
+
+while True:
+
+    x = input()
+
+    print("Chcesz obejrzeć coś? (Tak/Nie) albo przejrzeć moze liste całej bibloteki? (Lista)")
+    if x == "Lista": print(lista)
+    if x == "Tak": print("Serial czy film")
+    if x == "Nie": break
+    if x == "Film": print("karaiby, scooby doo, dom strachu?")
+    if x == "Karaiby": print(Karaiby)
+    if x == "Dom_strachu": print(Dom_strachu)
+    if x == "Scooby_doo": print(Scooby_doo)
+    if x == "Serial": print("spongebob, dexter, rodzinka?")
+    if x == "Spongebob": print(Spongebob)
+    if x == "Dexter": print(Dexter)
+    if x == "Rodzinka": print(Rodzinka)
